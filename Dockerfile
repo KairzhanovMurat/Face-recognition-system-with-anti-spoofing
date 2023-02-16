@@ -34,8 +34,8 @@ RUN apt-get install -y --fix-missing \
 
 RUN  git clone https://github.com/davisking/dlib.git && cd dlib &&\
      mkdir build && cd build && cmake ..&& cmake --build . && cd ../.. &&\
-     pip install -r requirements.txt &&  \
-     rm requirements.txt && \
+     pip install -r requirements_old.txt &&  \
+     rm requirements_old.txt && \
 
 EXPOSE 8000
 
