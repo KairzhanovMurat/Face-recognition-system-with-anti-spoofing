@@ -2,4 +2,5 @@
 db.sqlite3
 .idea*
 venv
-*cache*
+base/__pycache__
+face_recognition_with_anti_spoofing/__pycache__
