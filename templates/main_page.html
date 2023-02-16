@@ -1,0 +1,5 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Hey {{ user.name }}!</h2>
+    <a href="{% url 'base:update' pk=request.user.id %}"> update link!</a>
+{% endblock %}
